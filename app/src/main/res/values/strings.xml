@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EvaAndExo2</string>
+    <string name="nouveau">Nouveau</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pas_d_articles">Pas d\'articles</string>
+    <string name="quantity">Quantité:</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="name">Name:</string>
+    <string name="product_name">Nom du produit</string>
+    <string name="_0">0</string>
+    <string name="save">ENREGISTRER</string>
+    <string name="cancel">ANNULER</string>
+    <string name="shoppinglist">ShoppingList</string>
+    <string name="new_product">Nouveau Produit</string>
+    <string name="img_placeHolder">Une image de produit</string>
+</resources>
