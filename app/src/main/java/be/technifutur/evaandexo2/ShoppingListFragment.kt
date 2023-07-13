@@ -42,6 +42,8 @@ class ShoppingListFragment : Fragment(), ProductAdapter.OnItemClickListener {
         liveData = savedStateHandle?.getLiveData(KEY_PROD)
         liveData?.observe(viewLifecycleOwner) { result ->
             cart.add(result)
+            //remove data from observer while we don't go in the onDestroy()
+            savedStateHandle?.remove<Product>(KEY_PROD)
         }
 
         setupShoppingList()
